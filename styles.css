@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #2b2b2b;
+  }
+  
+  .pixel-art {
+    display: grid;
+    grid-template-columns: repeat(8, 20px); /* Grade com 8 colunas */
+    grid-gap: 1px;
+  }
+  
+  .pixel {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Paleta de cores */
+  .empty {
+    background-color: transparent;
+  }
+  
+  .green {
+    background-color: #228B22;
+  }
+  
+  .green-dark {
+    background-color: #006400;
+  }
+  
+  .green-light {
+    background-color: #32CD32;
+  }
+
+  .red{
+    background-color: red;
+  }
+  
+  .brown {
+    background-color: #5C3317;
+  }
+
+  .brown-light {
+    background-color: #ad500d;
+  }
+  
+  .brown-dark {
+    background-color: #8B4513;
+  }
+  
